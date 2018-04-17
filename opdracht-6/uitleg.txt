@@ -1,0 +1,4 @@
+Het verschil tussen de Python code en de Javascript code is dat bij Javascript de variabele "leeftijd" in de alert geschreven kan worden zonder dat het gespecificeerd wordt dat het een string is, terwijl dit bij Python nog erbij geschreven moet worden.
+Ook kan je zien dat er bij Javascript "var" voor een variabele geschreven moet worden voordat de syntax correct is, terwijl je bij Python niet "var" ervoor hoeft te zetten.
+Nog een duidelijk verschil: bij Python wordt het stuk tekst geprint, terwijl bij Javascript een alert gebruikt wordt.
+Het allerlaatste verschillen dat ik vinden kon (deze is heel simpel): bij Javascript worden de regels met ; afgesloten, terwijl dit niet hoeft bij Python.
