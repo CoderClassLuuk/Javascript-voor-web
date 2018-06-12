@@ -1,0 +1,59 @@
+<!doctype html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2018 by anonymous (http://jsbin.com/pazehaduha/2/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+  <head>
+    <title>webpagina 1</title>
+  </head>
+  <body>
+    <h1 id="kopje1">Hallo</h1>
+    <p>tekst</p>
+    <table>
+      <tr>
+        <td id="kleur">hoi</td>
+      </tr>
+      <tr>
+        <td id="kleur2">Hallo daar!</td>
+      </tr>
+      <tr>
+        <td id="kleur3">Mag ik ook een kleur?<hr></td>
+      </tr>
+    </table>
+    <p id="tekst">Ieder element in deze pagina wil wel graag een kleurtje!</p>
+  <script id="jsbin-javascript">
+var kop1 = document.getElementById("kopje1");
+
+console.log(kop1.innerHTML);
+
+kop1.innerHTML = "Dit is een nieuwe titel!"
+
+// Je kan bijvoorbeeld ook alles veranderen
+// naar hoofdletters. Let hierbij op het tekst
+// paragraafje!
+var tekst = document.getElementById("tekst");
+console.log(tekst.innerHTML);
+tekst.innerHTML = tekst.innerHTML.toUpperCase();
+
+// Of de kleur veranderen van een tekst
+var kleur = document.getElementById("kleur");
+kleur.innerHTML = kleur.innerHTML.fontcolor("green");
+
+var kleur2 = document.getElementById("kleur2");
+kleur2.innerHTML = kleur2.innerHTML.fontcolor("red");
+
+var kleur3 = document.getElementById("kleur3");
+kleur3.innerHTML = kleur3.innerHTML.fontcolor("blue");
+
+// En zo kan je van alles proberen! Kijk maar
+// op https://www.tutorialspoint.com/javascript/javascript_builtin_functions.htm
+
+</script>
+</body>
+</html>
